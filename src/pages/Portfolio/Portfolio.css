@@ -1,0 +1,92 @@
+/* Tabs */
+.custom_tabs .active {
+  color: var(--main-color);
+}
+
+.customTabs_item {
+  background-color: white !important;
+  border-radius: 0px !important;
+  width: 70px !important;
+  padding: 0px !important;
+  min-width: 0px !important;
+  margin-right: 5px !important;
+  text-transform: inherit !important;
+  font-size: 16px !important;
+  outline-width: 0px !important;
+}
+
+/* Cards */
+.allcard{
+  border: none;
+}
+.allcard .MuiButtonBase-root {
+  background-color: white !important;
+  border-radius: 0px !important;
+}
+.customCard {
+  height: 100% !important;
+  max-width: 350px !important;
+  box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.18) !important;
+  border-radius: 5px !important;
+  overflow: hidden !important;
+  outline-width: 0px !important;
+  /* background-color: bisque !important; */
+}
+
+.customCard_image {
+  height: 150px !important;
+}
+
+.customCard_title {
+  font-weight: 500 !important;
+}
+
+.customCard_description {
+  line-height: 6px !important;
+  color: darkslategray;
+}
+.customCard .MuiCardContent-root {
+  padding-left: 3px !important;
+  padding-right: 0px !important;
+}
+
+/* Dialog */
+
+.projectDialog {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  max-width: 800px !important;
+}
+
+.projectDialog_image {
+  max-height: 300px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+}
+
+.projectDialog_description {
+  margin-top: 10px !important;
+}
+
+.projectDialog_actions {
+  justify-content: center !important;
+  margin-bottom: 10px !important;
+}
+
+.projectDialog_icon {
+  /* font-size: 20px !important; */
+  color: darkslategray !important;
+  margin: 0px 12px !important;
+  cursor: pointer !important;
+}
+
+.projectDialog_icon:hover {
+  color: var(--main-color) !important;
+}
+
+.projectDialog_icon > .MuiSvgIcon-root {
+  font-size: 30px !important;
+}
+
